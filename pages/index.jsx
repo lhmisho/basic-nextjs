@@ -1,9 +1,11 @@
-import "../style/styles.scss"
-
+// import "../style/styles.scss"
+import Layout from '../components/layout/Layout'
 const Index = () => (
+  <Layout>
     <div className="example">
       <p>Hello Next.js</p>
     </div>
-  );
-  
-  export default Index;
+  </Layout>
+);
+
+export default Index;
